@@ -21,13 +21,20 @@
 </header>
 
 <main>
-    <h2>
+    <h2 id="question-head">
         Ready For A Little Challenge?
     </h2>
+    <ul>
+        <li><input type="radio" name = "answer"><span>Answer 1</span></li>
+        <li><input type="radio" name = "answer"> Answer 2</li>
+        <li><input type="radio" name = "answer"> Answer 3</li>
+        <li><input type="radio" name = "answer"> Answer 4</li>
+    </ul>
+    <input type="text" id="initials"> 
     <p>
         This coding quiz is designed to help you stay fresh on a few concepts from JavaScript! When you are ready, click the button below to get started.
     </p>
-    <button id='start' type="button">Begin</button>
+    <button id='start' type="button" data-state="home" name="button"> Begin </button>
 </main>
     
     <script src='./script.js'></script>

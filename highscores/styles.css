@@ -10,7 +10,7 @@ header {
         align-items: center;
         background-color: slateblue;
         padding: 10px;
-        margin: 10px;
+        margin: 20px 10px 20px 10px;
         height: 100px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         border: solid #f9fafb 5px;
@@ -55,4 +55,6 @@ main {
         width: 50%;
         margin-left: 25%;
         margin-right: 25%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }

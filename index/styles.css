@@ -11,7 +11,7 @@ main {
     flex-flow: column wrap;
     align-items: center;
     background-color: slateblue;
-    margin-top: 50px;
+    margin-top: 10%;
     margin-right: 5px;
     margin-left: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,7 +25,7 @@ header {
     align-items: center;
     background-color: slateblue;
     padding: 10px;
-    margin: 10px;
+    margin: 50px 10px 50px 10px;
     height: 100px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: solid #f9fafb 5px;
@@ -58,4 +58,12 @@ h2 {
 
 p {
     font-size: 25px;
+}
+
+ul {
+    display: none;
+}
+
+input {
+    display: none;
 }
