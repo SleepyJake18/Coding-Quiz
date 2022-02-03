@@ -59,3 +59,38 @@ h2 {
 p {
     font-size: 25px;
 }
+
+#question-set-1 {
+    display: none;
+}
+#question-set-2 {
+    display: none;
+}
+#question-set-3 {
+    display: none;
+}
+#question-set-4 {
+    display: none;
+}
+#question-set-5 {
+    display: none;
+}
+
+#initials {
+    display:none;
+}
+
+#submit {
+    display: none;
+}
+
+.answer {
+    color: #f9fafb;
+    background-color: #202121;
+    width: 300px;
+    height: 70px;
+    border: solid #f9fafb;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+}

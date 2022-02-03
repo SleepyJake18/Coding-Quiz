@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./index/styles.css">
 </head>
 <body>
 <header>
@@ -21,15 +21,47 @@
 </header>
 
 <main>
-    <h2>
+    <h2 id="question-head"> 
         Ready For A Little Challenge?
     </h2>
-    <p>
+    <ul id="question-set-1">
+        <li><button id="answer1" class='answer' data-state="question-1" value="Document Object Model">Document Object Model</button></li>
+        <li><button id="answer2" class='answer' data-state="question-1" value="Direct Object Model">Direct Object Model</button></li>
+        <li><button id="answer3" class='answer' data-state="question-1" value="Document Object Module">Document Object Module</button></li>
+        <li><button id="answer4" class='answer' data-state="question-1" value="Document Overt Model">Document Overt Model</button></li>
+    </ul>
+    <ul id="question-set-2">
+        <li><button id="answer5" class='answer' data-state="question-2" value="Align Items">Align Items</button></li>
+        <li><button id="answer6" class='answer' data-state="question-2" value="Align Self">Align Self</button></li>
+        <li><button id="answer7" class='answer' data-state="question-2" value="Justify Content">Justify Content</button></li>
+        <li><button id="answer8" class='answer' data-state="question-2" value="Align on Primary Axis">Align on Primary Axis</button></li>
+    </ul>
+    <ul id="question-set-3">
+        <li><button id="answer9" class='answer' data-state="question-3" value="Align Items">Align Items</button></li>
+        <li><button id="answer10" class='answer' data-state="question-3" value="Align Self">Align Self</button></li>
+        <li><button id="answer11" class='answer' data-state="question-3" value="Justify Content">Justify Content</button></li>
+        <li><button id="answer12" class='answer' data-state="question-3" value="Align on Secondary Axis">Align on Secondary Axis</button></li>
+    </ul>
+    <ul id="question-set-4">
+        <li><button id="answer13" class='answer' data-state="question-4" value="Over Usage of Div tag">Over Usage of Div tag</button></li>
+        <li><button id="answer14" class='answer' data-state="question-4" value="A Deadly Disease That Ravaged Much of Europe During the Middle Ages.">A Deadly Disease That Ravaged Much of Europe During the Middle Ages.</button></li>
+        <li><button id="answer15" class='answer' data-state="question-4" value="Under Usage of Div Tag">Under Usage of Div Tag</button></li>
+        <li><button id="answer16" class='answer' data-state="question-4" value="The Ideal Usage of Div Tags">The Ideal Usage of Div Tags</button></li>
+    </ul>
+    <ul id="question-set-5">
+        <li><button id="answer17" class='answer' data-state="question-5" value="Coding That is Not Wet">Coding That is Not Wet</button></li>
+        <li><button id="answer18" class='answer' data-state="question-5" value="Coding in Which You Do Not Repeat Yourself">Coding in Which You Do Not Repeat Yourself</button></li>
+        <li><button id="answer19" class='answer' data-state="question-5" value="Coding in Which You Do Repeat Yourself">Coding in Which You Do Repeat Yourself</button></li>
+        <li><button id="answer20" class='answer' data-state="question-5" value="Coding in Which You Repeat Yourself Only A Little Bit">Coding in Which You Repeat Yourself Only A Little Bit</button></li>
+    </ul>
+    <input type="text" id='initials'>
+    <p id="openingtext">
         This coding quiz is designed to help you stay fresh on a few concepts from JavaScript! When you are ready, click the button below to get started.
     </p>
-    <button id='start' type="button">Begin</button>
+    <button id='start' type="button" data-state="home">Begin</button>
+    <button id='submit' data-state='submit'>Submit</button>
 </main>
     
-    <script src='./script.js'></script>
+    <script src='./index/script.js'></script>
 </body>
 </html>
